@@ -6,7 +6,6 @@ public class Main {
 
         int c;
 
-
         c = calc.devide.apply(100, 20);
         calc.println.accept(c);
         c = calc.multiply.apply(5, 5);
