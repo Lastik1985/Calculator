@@ -9,7 +9,7 @@ public class Calculator {
         try {
             return x / y;
         } catch (ArithmeticException exception) {
-            System.out.println("Деление на нуль");
+            System.out.println("Делить на ноль нельзя!");
             return 0;
         }
     };
